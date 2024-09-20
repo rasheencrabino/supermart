@@ -45,12 +45,12 @@ const DisplaySection = () => {
 
 
                     <div className='content-sec-one'>
-                        <h2>DELICIOUS</h2>
-                        <h1>SALAD</h1>
+                        <h2>Presko</h2>
+                        <h1>Bag-o</h1>
                         <h3>
 
                             <TypeAnimation
-                                sequence={['EVERYDAY.', 2000, '']}
+                                sequence={['Aton guid ini!', 2000, '']}
                                 speed={50}
                                 repeat={Infinity}
                             />
@@ -72,7 +72,7 @@ const DisplaySection = () => {
 
                         <div className='content-section-two'>
                             <h1>Fresh</h1>
-                            <h2>Vegitables</h2>
+                            <h2>Vegetables</h2>
 
                             <div className='shop-now-btn'>
                                 <button>Shop Now</button>
@@ -93,8 +93,8 @@ const DisplaySection = () => {
                     <div className='relative'>
 
                         <div className='content-section-three'>
-                            <h1>Fresh</h1>
-                            <h2>EVERYDAY</h2>
+                            <h1>Goods</h1>
+                            <h2>and Produce</h2>
                             <div className='shop-now-btn'>
                                 <button>Shop Now</button>
                                 <MdDoubleArrow className='ml-1 ' />
@@ -121,7 +121,6 @@ const DisplaySection = () => {
                         <img src={img4} className="w-[93px] h-[93px]" alt="" />
                         <div>
                             <h2>Healthy Food</h2>
-                            <p>It is a long established <br /> fact that </p>
                         </div>
                     </div>
                 </div>
@@ -130,8 +129,8 @@ const DisplaySection = () => {
                     <div className='main-section'>
                         <img src={img5} className="w-[95px] h-[95px]" alt="" />
                         <div>
-                            <h2>Home Made</h2>
-                            <p>It is a long established <br /> fact that </p>
+                            <h2>Cheap and Affordable</h2>
+                            {/* <p>It is a long established <br /> fact that </p> */}
                         </div>
                     </div>
                 </div>
@@ -140,8 +139,7 @@ const DisplaySection = () => {
                     <div className='main-section'>
                         <img src={img6} className="w-[76px] h-[81px]" alt="" />
                         <div>
-                            <h2>100% Natural</h2>
-                            <p>It is a long established <br /> fact that </p>
+                            <h2>Multiple Selections</h2>
                         </div>
                     </div>
                 </div>
@@ -151,7 +149,6 @@ const DisplaySection = () => {
                         <img src={img7} className="w-[119px] h-[64px]" alt="" />
                         <div>
                             <h2>Fast Delivery</h2>
-                            <p>It is a long established <br /> fact that </p>
                         </div>
                     </div>
                 </div>

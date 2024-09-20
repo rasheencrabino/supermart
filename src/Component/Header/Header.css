@@ -1,7 +1,10 @@
 .header-container {
-    margin: 8px 320px 0px 320px;
+    /* margin: 8px 320px 0px 320px; */
     display: flex;
+    padding-right: 320px;
+    padding-left: 320px;
     justify-content: space-between;
+    background-color: #F43030;
 }
 
 .logo-search-cont {
@@ -18,12 +21,12 @@
 .search-cont {
     width: 414px;
     height: 41px;
-    background-color: #D3E88B;
+    background-color: #ffffff;
     border-radius: 20.5px;
     display: flex;
     align-items: center;
     padding-left: 16px;
-    color: #706868;
+    color: #F43030;
 }
 
 .search-cont .icon {
@@ -68,7 +71,7 @@
 .social-icon-cont {
     display: flex;
     align-items: center;
-    gap: 25px;
+    gap: 20px;
 }
 
 .headerIcon {
@@ -78,16 +81,18 @@
     display: grid;
     align-content: center;
     justify-content: center;
-    background-color: #C4E454;
+    background-color: #F43030;
     transition-duration: .5s;
+    padding-left: 16px;
+    color: #ffffff;
 }
 
 .headerIcon-size {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 
 .headerIcon:hover {
-    background-color: #9ebe2b;
+    background-color: #F43030;
     transform: scale(1.1);
 }

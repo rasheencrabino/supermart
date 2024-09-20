@@ -8,7 +8,7 @@ const TopSell = () => {
 
             <div data-aos="fade-down" data-aos-duration="2000" data-aos-easing="ease-in-out" className='section-title'>
                 <div className='section-line'></div>
-                <h1>Top Sell Products</h1>
+                <h1>Top Selling Products</h1>
                 <div className='section-line'></div>
             </div>
 

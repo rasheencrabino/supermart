@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Footer.css";
-import logo from "../Assets/brand1.png";
+import logo from "../Assets/logo-supermart.png";
 import payment from "../Assets/payment.png";
 import vector1 from "../Assets/Vector1.png";
 import vector2 from "../Assets/Vector2.png";
@@ -21,7 +21,7 @@ import { Fade } from 'react-reveal';
 
 const Footer = () => {
     return (
-        <div className='mt-[29px] bg-[#9FB846] h-[507px] relative overflow-hidden'>
+        <div className='mt-[29px] bg-[#F43030] h-[507px] relative overflow-hidden'>
 
             <img src={vector1} className="absolute left-[25%] top-[18%]" alt="" />
             <img src={vector2} className="absolute left-[62%] top-[10%]" alt="" />
@@ -44,9 +44,6 @@ const Footer = () => {
                 <div className='flex justify-between  justify-items-center items-center  w-[60%]'>
                     <div>
                         <img src={logo} className="w-[146px] h-[93px]" alt="" />
-                    </div>
-                    <div>
-                        <h3 className='text-[18px] font-[500]'>Call Us <br /> <span className='font-[600]'>+099 000 000</span> </h3>
                     </div>
                     <div>
                         <h3 className='text-[18px] font-[500]'>Follow Us</h3>
@@ -82,7 +79,6 @@ const Footer = () => {
                     <div className='footer-info w-[250px] h-[250px]  z-[5]'>
                         <h2 className="text-[22px] font-[600] mb-[30px]">Location</h2>
                         <p>Shop Address and <br /> Location</p>
-                        <p>support@microbuddy.com</p>
                     </div>
                 </Fade>
 
@@ -112,29 +108,29 @@ const Footer = () => {
                         <h2 className="text-[22px] font-[600] mb-[30px]">Categories</h2>
                         <p>Fruit</p>
                         <p>Dairy</p>
-                        <p>Vegitable</p>
-                        <p>Health</p>
+                        <p>Vegetables</p>
+                        <p>Meat</p>
+                        <p>Frozen</p>
+                        <p>Health & Beauty</p>
+                        <p>Household</p>
+                        <p>Liquor</p>
                     </div>
                 </Fade>
 
                 <Fade left delay={3500}>
                     <div className='footer-info w-[250px] h-[250px]  z-[1]'>
-                        <h2 className="text-[22px] font-[600] mb-[30px]">Subscribe Us</h2>
+                        <h2 className="text-[22px] font-[600] mb-[30px]">Subscribe</h2>
                         <p>Signup and get a voucher</p>
 
                         <div className='footer-search-bar'>
                             <input type="text" placeholder='Email Address' />
-                            <MdArrowForwardIos className='text-[#01E834] text-[36px] mr-[5px]' />
+                            <MdArrowForwardIos className='text-[#ffffff] text-[36px] mr-[5px]' />
                         </div>
                     </div>
                 </Fade>
             </div>
 
             <div className='mt-[68px] mx-[320px] hr-line  ' />
-
-            <p className='copyright mx-[320px] text-right '>Copyright@microbuddy.com. All Rights Reserved</p>
-
-
 
         </div>
     );

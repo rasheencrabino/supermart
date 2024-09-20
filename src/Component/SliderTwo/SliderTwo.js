@@ -35,7 +35,7 @@ const SliderTwo = () => {
                     <img src={img1} alt="" />
                     <div className='content'>
                         <h1>Products One</h1>
-                        <h2>200.25$</h2>
+                        <h2>200.25</h2>
                         <div className='price-underline'></div>
                         <div className=' select-btn'>
                             <p>SELECT OPTION</p>
@@ -50,7 +50,7 @@ const SliderTwo = () => {
                     <img src={img2} alt="" />
                     <div className='content'>
                         <h1>Products One</h1>
-                        <h2>200.25$</h2>
+                        <h2>200.25</h2>
                         <div className='price-underline'></div>
                         <div className=' select-btn'>
                             <p>SELECT OPTION</p>
@@ -65,7 +65,7 @@ const SliderTwo = () => {
                     <img src={img3} alt="" />
                     <div className='content'>
                         <h1>Products One</h1>
-                        <h2>200.25$</h2>
+                        <h2>200.25</h2>
                         <div className='price-underline'></div>
                         <div className=' select-btn'>
                             <p>SELECT OPTION</p>
@@ -80,7 +80,7 @@ const SliderTwo = () => {
                     <img src={img4} alt="" />
                     <div className='content'>
                         <h1>Products One</h1>
-                        <h2>200.25$</h2>
+                        <h2>200.25</h2>
                         <div className='price-underline'></div>
                         <div className=' select-btn'>
                             <p>SELECT OPTION</p>
@@ -95,7 +95,7 @@ const SliderTwo = () => {
                     <img src={img1} alt="" />
                     <div className='content'>
                         <h1>Products One</h1>
-                        <h2>200.25$</h2>
+                        <h2>200.25</h2>
                         <div className='price-underline'></div>
                         <div className=' select-btn'>
                             <p>SELECT OPTION</p>
@@ -110,7 +110,7 @@ const SliderTwo = () => {
                     <img src={img2} alt="" />
                     <div className='content'>
                         <h1>Products One</h1>
-                        <h2>200.25$</h2>
+                        <h2>200.25</h2>
                         <div className='price-underline'></div>
                         <div className=' select-btn'>
                             <p>SELECT OPTION</p>
@@ -125,7 +125,7 @@ const SliderTwo = () => {
                     <img src={img3} alt="" />
                     <div className='content'>
                         <h1>Products One</h1>
-                        <h2>200.25$</h2>
+                        <h2>200.25</h2>
                         <div className='price-underline'></div>
                         <div className=' select-btn'>
                             <p>SELECT OPTION</p>
@@ -140,7 +140,7 @@ const SliderTwo = () => {
                     <img src={img4} alt="" />
                     <div className='content'>
                         <h1>Products One</h1>
-                        <h2>200.25$</h2>
+                        <h2>200.25</h2>
                         <div className='price-underline'></div>
                         <div className=' select-btn'>
                             <p>SELECT OPTION</p>

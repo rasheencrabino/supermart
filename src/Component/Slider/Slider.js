@@ -34,8 +34,8 @@ const Slider = () => {
                 <div className='hoverIncrease'>
                     <img src={img1} alt="" />
                     <div className='content'>
-                        <h1>Products One</h1>
-                        <h2>100.25$</h2>
+                        <h1>Canned Food</h1>
+                        <h2>P30.25</h2>
                         <div className='price-underline'></div>
                         <div className=' select-btn'>
                             <p>SELECT OPTION</p>
@@ -49,8 +49,8 @@ const Slider = () => {
                 <div className='hoverIncrease'>
                     <img src={img2} alt="" />
                     <div className='content'>
-                        <h1>Products One</h1>
-                        <h2>100.25$</h2>
+                        <h1>Product 2</h1>
+                        <h2>P50.00</h2>
                         <div className='price-underline'></div>
                         <div className=' select-btn'>
                             <p>SELECT OPTION</p>
@@ -64,8 +64,8 @@ const Slider = () => {
                 <div className='hoverIncrease'>
                     <img src={img3} alt="" />
                     <div className='content'>
-                        <h1>Products One</h1>
-                        <h2>100.25$</h2>
+                        <h1>Product 3</h1>
+                        <h2>P199.75</h2>
                         <div className='price-underline'></div>
                         <div className=' select-btn'>
                             <p>SELECT OPTION</p>
@@ -79,8 +79,8 @@ const Slider = () => {
                 <div className='hoverIncrease'>
                     <img src={img4} alt="" />
                     <div className='content'>
-                        <h1>Products One</h1>
-                        <h2>100.25$</h2>
+                        <h1>Product 4</h1>
+                        <h2>P67.25</h2>
                         <div className='price-underline'></div>
                         <div className=' select-btn'>
                             <p>SELECT OPTION</p>
@@ -95,7 +95,7 @@ const Slider = () => {
                     <img src={img1} alt="" />
                     <div className='content'>
                         <h1>Products One</h1>
-                        <h2>100.25$</h2>
+                        <h2>P100.25</h2>
                         <div className='price-underline'></div>
                         <div className=' select-btn'>
                             <p>SELECT OPTION</p>
@@ -109,8 +109,8 @@ const Slider = () => {
                 <div className='hoverIncrease'>
                     <img src={img2} alt="" />
                     <div className='content'>
-                        <h1>Products One</h1>
-                        <h2>100.25$</h2>
+                        <h1>Product 6</h1>
+                        <h2>P20.75</h2>
                         <div className='price-underline'></div>
                         <div className=' select-btn'>
                             <p>SELECT OPTION</p>
@@ -124,8 +124,8 @@ const Slider = () => {
                 <div className='hoverIncrease'>
                     <img src={img3} alt="" />
                     <div className='content'>
-                        <h1>Products One</h1>
-                        <h2>100.25$</h2>
+                        <h1>Bangus</h1>
+                        <h2>P80.25</h2>
                         <div className='price-underline'></div>
                         <div className=' select-btn'>
                             <p>SELECT OPTION</p>
@@ -139,8 +139,8 @@ const Slider = () => {
                 <div className='hoverIncrease'>
                     <img src={img4} alt="" />
                     <div className='content'>
-                        <h1>Products One</h1>
-                        <h2>100.25$</h2>
+                        <h1>Chicken</h1>
+                        <h2>P190.50</h2>
                         <div className='price-underline'></div>
                         <div className=' select-btn'>
                             <p>SELECT OPTION</p>

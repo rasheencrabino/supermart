@@ -12,16 +12,16 @@ const Navbar = () => {
 
                 <div className='burger-menu'>
                     <GiHamburgerMenu className='burger-menu-icon' />
-                    <p>Short by Department</p>
+                    <p>Sort by Category</p>
                 </div>
 
                 <div className='navbar'>
                     <ul className='anim-nav'>
                         <li><a href="#!">Home</a></li>
                         <li><a href="#!" > <span className='flex items-center'>Shop <MdKeyboardArrowDown className='text-[25px]' /></span> </a></li>
-                        <li><a href="#!" > <span className='flex items-center'>Page <MdKeyboardArrowDown className='text-[25px]' /></span> </a></li>
-                        <li><a href="#!">Blog</a></li>
-                        <li><a href="#!">Conatct</a></li>
+                        <li><a href="#!" > <span className='flex items-center'>FAQ <MdKeyboardArrowDown className='text-[25px]' /></span> </a></li>
+                        <li><a href="#!">Contact Us</a></li>
+                        <li><a href="#!">Track order</a></li>
                     </ul>
                 </div>
             </div>

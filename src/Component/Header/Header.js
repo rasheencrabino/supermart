@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Header.css";
-import logo from "../Assets/Frame.png";
+import logo from "../Assets/logo-supermart.png";
 import callicon from "../Assets/call icon.svg";
 import { BiSearchAlt, BiUser } from 'react-icons/bi';
 import { BsHeart, BsCart2 } from 'react-icons/bs';
@@ -21,10 +21,10 @@ const Header = () => {
 
             <div className='contact-social-cont'>
 
-                <div className='contact'>
+                {/* <div className='contact'>
                     <img src={callicon} alt="" />
                     <p>Call Us <br /> <span>+009 000 000</span> </p>
-                </div>
+                </div> */}
 
                 <div className='social-icon-cont'>
                     <div className='headerIcon'>

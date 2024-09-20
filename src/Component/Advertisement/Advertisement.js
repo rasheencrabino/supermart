@@ -15,14 +15,7 @@ const Advertisement = () => {
 
                 <div className='cont-img'>
                     <div className='hoverImg'>
-                        <div className='hoverImg-content'>
-                            <div className='shop-now-btn ml-[125px]'>
-                                <button>Shop Now</button>
-                                <MdDoubleArrow className='ml-1 ' />
-                            </div>
-                            <h1>Lorem Ipsum</h1>
-                            <p >Why do we use it?</p>
-                        </div>
+
                         <img src={img1} alt="" />
                     </div>
                 </div>
@@ -30,12 +23,9 @@ const Advertisement = () => {
                 <div>
                     <div className='relative'>
                         <div className='center-img-centent'>
-                            <h1>Lorem Ipsum</h1>
-                            <p>Why do we use it?</p>
-                            <div className='shop-now-btn ml-[70px]'>
-                                <button>Shop Now</button>
-                                <MdDoubleArrow className='ml-1 ' />
-                            </div>
+                            <h1>Barato ang pangita?</h1>
+                            <p>Kari na diri sa Iloilo Supermart!</p>
+                           
                         </div>
 
                         <div class="hover02 column-top">
@@ -52,12 +42,9 @@ const Advertisement = () => {
 
                         <div className='relative'>
                             <div className='bottom-img1-content'>
-                                <h1>Lorem Ipsum</h1>
-                                <p>Why do we use it?</p>
-                                <div className='shop-now-btn'>
-                                    <button>Shop Now</button>
-                                    <MdDoubleArrow className='ml-1 ' />
-                                </div>
+                                <h1>Drinks?</h1>
+                                <p>May ari di.</p>
+
                                 <div className='bg-black h-[1px]  w-[40%]' />
                             </div>
 
@@ -72,14 +59,8 @@ const Advertisement = () => {
 
                         <div className='relative'>
                             <div className='absolute z-10 left-[10px] top-[10px]'>
-                                <h1 className='text-[35px] font-[900] text-[#881F16] leading-[40px]'>Lorem Ipsum</h1>
-                                <p className='text-[15px] text-[#882016a6] text-center'>Why do we use it?</p>
-
-                                <div className='font-[500] text-[#41503F] flex items-center'>
-                                    <button>Shop Now</button>
-                                    <MdDoubleArrow className='ml-1 ' />
-
-                                </div>
+                                <h1 className='text-[35px] font-[900] text-[#881F16] leading-[40px]'>Bag-o nga recipe?</h1>
+                                <p className='text-[15px] text-[#882016a6] '>Ari di ang ingredients.</p>
                                 <div className='bg-black h-[1px]  w-[40%]' />
                             </div>
                             <div class="hover03 column border">
@@ -97,8 +78,6 @@ const Advertisement = () => {
                 <div className='cont-img'>
                     <div className='hoverImg relative'>
                         <div className='right-img-content'>
-                            <h1>Lorem Ipsum</h1>
-                            <p>Why do we use it?</p>
                         </div>
                         <img src={img5} alt="" />
                     </div>

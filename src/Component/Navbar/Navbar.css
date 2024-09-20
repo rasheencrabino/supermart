@@ -1,9 +1,8 @@
 .navbar-container {
     width: 100%;
-    height: 58px;
-    background-color: #C4E454;
-    margin-top: 8px;
-    padding: 0px 320px;
+    height: 62px;
+    background-color: #F43030;
+    padding: 0px 300px;
     display: grid;
     align-content: center;
 }
@@ -11,7 +10,6 @@
 .navbar-sub-container {
     display: flex;
     align-items: center;
-    gap: 55px;
 }
 
 .burger-menu {
@@ -20,28 +18,28 @@
     display: flex;
     align-items: center;
     border-radius: 20.5px;
-    background-color: #EFF400;
-    padding-left: 20px;
+    background-color: #F43030;
+    padding-left: 18px;
 }
 
 .burger-menu-icon {
     width: 31px;
     height: 31px;
-    color: #AAAAAA;
+    color: #ffffff
 }
 
 .burger-menu p {
     font-size: 20px;
-    color: #438439;
+    color: #ffffff;
     margin-left: 13px;
 }
 
 .navbar ul {
     display: flex;
-    gap: 54px;
-    font-size: 20px;
-    font-weight: 600;
-    color: #438439;
+    gap: 60px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff
 }
 
 .anim-nav a {
@@ -61,8 +59,8 @@
     right: 15%;
     top: 0;
     bottom: 0;
-    border-left: 3px solid #27ae60;
-    border-right: 3px solid #27ae60;
+    border-left: 3px solid #F43030;
+    border-right: 3px solid #F43030;
 }
 
 .anim-nav a:hover,
