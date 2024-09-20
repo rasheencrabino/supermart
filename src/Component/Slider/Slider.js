@@ -1,9 +1,13 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import img1 from "../Assets/tomatos.png";
-import img2 from "../Assets/capcicum.png";
-import img3 from "../Assets/strawberies.png";
-import img4 from "../Assets/tomato 2.png";
+import cheetos2 from "../Assets/cheetos2.jpg";
+import butter from "../Assets/butter.jpg";
+import butter2 from "../Assets/butter2.jpg";
+import doritos from "../Assets/doritos.jpg";
+import tuna1 from "../Assets/tuna1.jpg";
+import tuna2 from "../Assets/tuna2.jpg";
+import tuna3 from "../Assets/tuna3.jpg";
+import shampoo from "../Assets/shampoo.jpg";
 import "./Slider.css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -15,7 +19,6 @@ import { MdDoubleArrow } from "react-icons/md";
 
 
 const Slider = () => {
-
     return (
         <Swiper
             slidesPerView={4}
@@ -32,120 +35,89 @@ const Slider = () => {
         >
             <SwiperSlide>
                 <div className='hoverIncrease'>
-                    <img src={img1} alt="" />
+                    <img src={cheetos2} alt="" />
                     <div className='content'>
-                        <h1>Canned Food</h1>
-                        <h2>P30.25</h2>
+                        <h1>Cheetos Crunchy 215gBuy 2 Save P40.00</h1>
+                        <h2>P272.00</h2>
                         <div className='price-underline'></div>
-                        <div className=' select-btn'>
-                            <p>SELECT OPTION</p>
-                            <MdDoubleArrow className='ml-1' />
-                        </div>
                     </div>
                 </div>
             </SwiperSlide>
 
             <SwiperSlide>
                 <div className='hoverIncrease'>
-                    <img src={img2} alt="" />
+                    <img src={doritos} alt="" />
                     <div className='content'>
-                        <h1>Product 2</h1>
-                        <h2>P50.00</h2>
+                        <h1>Doritos Nacho Cheese Flavor 190g Buy 2 Save P40.00</h1>
+                        <h2>P269.00</h2>
                         <div className='price-underline'></div>
-                        <div className=' select-btn'>
-                            <p>SELECT OPTION</p>
-                            <MdDoubleArrow className='ml-1' />
-                        </div>
                     </div>
                 </div>
             </SwiperSlide>
 
             <SwiperSlide>
                 <div className='hoverIncrease'>
-                    <img src={img3} alt="" />
+                    <img src={shampoo} alt="" />
                     <div className='content'>
-                        <h1>Product 3</h1>
-                        <h2>P199.75</h2>
+                        <h1>Head & Shoulder Cool Menthol 170ml Buy 1, Get 2nd at 50% Off</h1>
+                        <h2>P265.00</h2>
                         <div className='price-underline'></div>
-                        <div className=' select-btn'>
-                            <p>SELECT OPTION</p>
-                            <MdDoubleArrow className='ml-1' />
-                        </div>
+                    </div>
+                </div>
+            </SwiperSlide>
+
+
+            <SwiperSlide>
+                <div className='hoverIncrease'>
+                    <img src={butter2} alt="" />
+                    <div className='content'>
+                        <h1>Magnolia Gold Unsalted 225g Buy 2 Save P50.00</h1>
+                        <h2>P239.00</h2>
+                        <div className='price-underline'></div>
                     </div>
                 </div>
             </SwiperSlide>
 
             <SwiperSlide>
                 <div className='hoverIncrease'>
-                    <img src={img4} alt="" />
+                    <img src={butter} alt="" />
                     <div className='content'>
-                        <h1>Product 4</h1>
-                        <h2>P67.25</h2>
+                        <h1>Anchor Salted 200g Buy 2 Save P20.00</h1>
+                        <h2>P278.00</h2>
                         <div className='price-underline'></div>
-                        <div className=' select-btn'>
-                            <p>SELECT OPTION</p>
-                            <MdDoubleArrow className='ml-1' />
-                        </div>
                     </div>
                 </div>
             </SwiperSlide>
 
             <SwiperSlide>
                 <div className='hoverIncrease'>
-                    <img src={img1} alt="" />
+                    <img src={tuna1} alt="" />
                     <div className='content'>
-                        <h1>Products One</h1>
-                        <h2>P100.25</h2>
+                        <h1>555 Tuna Sizzling Sisig 155g Less 2%</h1>
+                        <h2>P32.00</h2>
                         <div className='price-underline'></div>
-                        <div className=' select-btn'>
-                            <p>SELECT OPTION</p>
-                            <MdDoubleArrow className='ml-1' />
-                        </div>
                     </div>
                 </div>
             </SwiperSlide>
 
             <SwiperSlide>
                 <div className='hoverIncrease'>
-                    <img src={img2} alt="" />
+                    <img src={tuna2} alt="" />
                     <div className='content'>
-                        <h1>Product 6</h1>
-                        <h2>P20.75</h2>
+                        <h1>555 Tuna Spicy Caldereta 155g Less 1%</h1>
+                        <h2>P29.00</h2>
                         <div className='price-underline'></div>
-                        <div className=' select-btn'>
-                            <p>SELECT OPTION</p>
-                            <MdDoubleArrow className='ml-1' />
-                        </div>
                     </div>
                 </div>
             </SwiperSlide>
 
             <SwiperSlide>
                 <div className='hoverIncrease'>
-                    <img src={img3} alt="" />
+                    <img src={tuna3} alt="" />
                     <div className='content'>
-                        <h1>Bangus</h1>
-                        <h2>P80.25</h2>
+                        <h1>555 Tuna Spicy Paksiw 155g Less 1%</h1>
+                        <h2>P29.00</h2>
                         <div className='price-underline'></div>
-                        <div className=' select-btn'>
-                            <p>SELECT OPTION</p>
-                            <MdDoubleArrow className='ml-1' />
-                        </div>
-                    </div>
-                </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-                <div className='hoverIncrease'>
-                    <img src={img4} alt="" />
-                    <div className='content'>
-                        <h1>Chicken</h1>
-                        <h2>P190.50</h2>
-                        <div className='price-underline'></div>
-                        <div className=' select-btn'>
-                            <p>SELECT OPTION</p>
-                            <MdDoubleArrow className='ml-1' />
-                        </div>
                     </div>
                 </div>
             </SwiperSlide>

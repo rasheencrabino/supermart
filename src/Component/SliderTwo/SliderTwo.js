@@ -1,12 +1,16 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import img1 from "../Assets/mushroom.png";
-import img2 from "../Assets/pickles.png";
-import img3 from "../Assets//pickles 2.png";
-import img4 from "../Assets/juice.png";
+import loaf from "../Assets/loaf.jpg";
+import oil from "../Assets/oil.png";
+import roll from "../Assets/butter-roll.jpg";
+import chicken from "../Assets/chicken.jpg";
+import icecream1 from "../Assets/icecream1.jpg";
+import energen from "../Assets/energen.jpg";
+import chicken2 from "../Assets/chicken2.jpg";
+import crispyfry from "../Assets/crispy-fry.jpg";
 import "./SliderTwo.css";
 import "swiper/css/pagination";
-import "swiper/css/navigation";
+import "swiper/css/navigation"; 
 import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay, Navigation } from "swiper";
@@ -32,10 +36,10 @@ const SliderTwo = () => {
         >
             <SwiperSlide>
                 <div className='hoverIncrease'>
-                    <img src={img1} alt="" />
+                    <img src={loaf} alt="" />
                     <div className='content'>
-                        <h1>Products One</h1>
-                        <h2>200.25</h2>
+                        <h1>Right Choice Medium Loaf</h1>
+                        <h2>60.00</h2>
                         <div className='price-underline'></div>
                         <div className=' select-btn'>
                             <p>SELECT OPTION</p>
@@ -47,10 +51,10 @@ const SliderTwo = () => {
 
             <SwiperSlide>
                 <div className='hoverIncrease'>
-                    <img src={img2} alt="" />
+                    <img src={oil} alt="" />
                     <div className='content'>
-                        <h1>Products One</h1>
-                        <h2>200.25</h2>
+                        <h1>Baguio Coconut Oil 1/2 Gallon</h1>
+                        <h2>257.00</h2>
                         <div className='price-underline'></div>
                         <div className=' select-btn'>
                             <p>SELECT OPTION</p>
@@ -62,10 +66,10 @@ const SliderTwo = () => {
 
             <SwiperSlide>
                 <div className='hoverIncrease'>
-                    <img src={img3} alt="" />
+                    <img src={roll} alt="" />
                     <div className='content'>
-                        <h1>Products One</h1>
-                        <h2>200.25</h2>
+                        <h1>Tinapayan Butter Roll</h1>
+                        <h2>55.00</h2>
                         <div className='price-underline'></div>
                         <div className=' select-btn'>
                             <p>SELECT OPTION</p>
@@ -77,10 +81,10 @@ const SliderTwo = () => {
 
             <SwiperSlide>
                 <div className='hoverIncrease'>
-                    <img src={img4} alt="" />
+                    <img src={chicken} alt="" />
                     <div className='content'>
-                        <h1>Products One</h1>
-                        <h2>200.25</h2>
+                        <h1>Purefoods Heat&Eat Chicken Afritada 450G</h1>
+                        <h2>275.00</h2>
                         <div className='price-underline'></div>
                         <div className=' select-btn'>
                             <p>SELECT OPTION</p>
@@ -92,10 +96,10 @@ const SliderTwo = () => {
 
             <SwiperSlide>
                 <div className='hoverIncrease'>
-                    <img src={img1} alt="" />
+                    <img src={icecream1} alt="" />
                     <div className='content'>
-                        <h1>Products One</h1>
-                        <h2>200.25</h2>
+                        <h1>Melona Melon Flavored Ice Cream</h1>
+                        <h2>45.00</h2>
                         <div className='price-underline'></div>
                         <div className=' select-btn'>
                             <p>SELECT OPTION</p>
@@ -107,10 +111,10 @@ const SliderTwo = () => {
 
             <SwiperSlide>
                 <div className='hoverIncrease'>
-                    <img src={img2} alt="" />
+                    <img src={crispyfry} alt="" />
                     <div className='content'>
-                        <h1>Products One</h1>
-                        <h2>200.25</h2>
+                        <h1>Crispy Fry Seasoned Crumbs</h1>
+                        <h2>26.00</h2>
                         <div className='price-underline'></div>
                         <div className=' select-btn'>
                             <p>SELECT OPTION</p>
@@ -122,10 +126,10 @@ const SliderTwo = () => {
 
             <SwiperSlide>
                 <div className='hoverIncrease'>
-                    <img src={img3} alt="" />
+                    <img src={energen} alt="" />
                     <div className='content'>
-                        <h1>Products One</h1>
-                        <h2>200.25</h2>
+                        <h1>Energen Chocolate Mini Bag 40G</h1>
+                        <h2>84.00</h2>
                         <div className='price-underline'></div>
                         <div className=' select-btn'>
                             <p>SELECT OPTION</p>
@@ -137,10 +141,10 @@ const SliderTwo = () => {
 
             <SwiperSlide>
                 <div className='hoverIncrease'>
-                    <img src={img4} alt="" />
+                    <img src={chicken2} alt="" />
                     <div className='content'>
-                        <h1>Products One</h1>
-                        <h2>200.25</h2>
+                        <h1>Right Choice Whole Chicken/KG</h1>
+                        <h2>181.00</h2>
                         <div className='price-underline'></div>
                         <div className=' select-btn'>
                             <p>SELECT OPTION</p>
